@@ -2,11 +2,12 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Iniciar Sesión</title>
+    <title>Registro</title>
   </head>
   <body>
-    <h2>Iniciar Sesión</h2>
+    <h2>Registro de Usuario</h2>
     <form method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" required /><br />
       <input type="email" name="correo" placeholder="Correo" required /><br />
       <input
         type="password"
@@ -14,7 +15,13 @@
         placeholder="Contraseña"
         required
       /><br />
-      <button type="submit">Ingresar</button>
+      <input
+        type="number"
+        name="facultad_id"
+        placeholder="ID Facultad"
+        required
+      /><br />
+      <button type="submit">Registrar</button>
     </form>
   </body>
 </html>
