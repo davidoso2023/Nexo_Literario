@@ -16,7 +16,7 @@ def registro():
         facultad_id = request.form["facultad_id"]
         registrar_usuario(nombre, correo, contraseña, facultad_id)
         flash("Usuario registrado correctamente.")
-        return redirect("/registro")  # puedes cambiar esto a /login luego
+        return redirect("/registro") 
     return render_template("registro.html")
 
 

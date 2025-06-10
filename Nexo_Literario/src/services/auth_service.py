@@ -21,4 +21,4 @@ def login_usuario(correo, contraseña):
     cursor.close()
     conn.close()
 
-    return usuario  # Devuelve None si no encuentra
+    return usuario  

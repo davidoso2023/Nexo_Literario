@@ -2,7 +2,7 @@ from flask import Flask, session, render_template, redirect
 from controllers.auth_controller import auth_bp
 
 app = Flask(__name__)
-app.secret_key = "tu_clave_secreta"  # Cambia esto por una clave segura
+app.secret_key = "tu_clave_secreta"  
 
 app.register_blueprint(auth_bp)
 

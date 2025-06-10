@@ -5,6 +5,6 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="",  # o tu contraseña
+        password="",
         database="nexo_literario",
     )
